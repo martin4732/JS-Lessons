@@ -1,0 +1,62 @@
+body{
+    background-color: gainsboro;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 500px 85px;
+    gap: 3px;
+}
+.home{
+    grid-row: 1/1;
+    background-color: blue;
+}
+.header{
+    grid-column: 2/-1;
+    background-color: cadetblue;
+}
+.menu{
+    grid-row: 2/-1;
+    background-color: aqua;
+}
+.content{
+    grid-column: 2/-1;
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+.footer{
+    grid-column: 2/-1;
+    background-color: steelblue;
+}
+h3{
+    text-align: center;
+}
+li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(72, 219, 27);
+}
+#image{
+    border: 10px solid gray;
+}
+section{
+    padding-top: 30px;
+    
+}
