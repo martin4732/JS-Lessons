@@ -26,6 +26,15 @@ body{
     padding-top: 30px;
     position: relative;
 }
+
+#content{
+    grid-column: 2/-1;
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+
 .footer{
     grid-column: 2/-1;
     background-color: steelblue;
