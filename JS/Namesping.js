@@ -9,6 +9,7 @@
         document.getElementById('myclass').style.width = '50%'
         document.getElementById('myclass').style.padding ='10px'
         document.getElementById('myclass').style.position ='center'
+        document.getElementById('myclass').st
     }
 
 } () )

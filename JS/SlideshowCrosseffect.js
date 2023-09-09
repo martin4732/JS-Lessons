@@ -5,14 +5,13 @@ var currentImageCount = 0;
 const imagesInArray = ['../IMAGES/img1.png', '../IMAGES/img2.png', '../IMAGES/img3.png', '../IMAGES/img4.png', 
 '../IMAGES/img5.png',];
 
-
-nextButton.addEventListener('click', function() {
+nextButton.addEventListener('click', function(event) {
+    event.preventDefault();
     currentImageCount++;
     if (currentImageCount > imagesInArray.length - 1) {
         currentImageCount = 0;
     }
-    creatingElementsAndRemovindChild();
-    
+    creatingElementsAndRemovindChild();  
 })
 
 previousButton.addEventListener('click', function(){
