@@ -7,6 +7,7 @@ const inputField = document.getElementById('input');
 formContent.addEventListener('submit', function (event) {
     event.preventDefault();
     
+    
     var inputValue = document.getElementById('input').value;
     inputValue = parseFloat(inputValue);
 
